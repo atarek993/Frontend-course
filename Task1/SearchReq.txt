@@ -1,0 +1,15 @@
+Search 
+HTML Formatting 
+video vs audio vs iframe
+
+1-Video Tag
+HTML Tag: <video>
+Purpose: Embeds a video file directly into the webpage.
+
+2-Audio Tag
+HTML Tag: <audio>
+Purpose: Embeds an audio file directly into the webpage
+
+3-iframe Tag
+HTML Tag: <iframe>
+Purpose: Embeds another webpage or resource within the current webpage. Commonly used to embed videos from external sites like YouTube, or to display other content like maps, documents, etc.
