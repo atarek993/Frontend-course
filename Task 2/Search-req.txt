@@ -1,0 +1,47 @@
+1- Semantic Tags
+Semantic tags are elements that clearly describe their meaning in a way that both the browser and the developer can understand like :
+<header>: Represents a container for introductory content or a set of navigational links.
+<nav>: Defines a set of navigation links. It is commonly used for menus or a set of navigation links within a website.
+
+<section>: Represents a standalone section of a document, which doesn't have a more specific semantic element to represent it. It is used to group related content.
+
+<article>: Specifies independent, self-contained content, such as a blog post, news article, or any other content that could be distributed and reused independently.
+
+<aside>: Contains content that is tangentially related to the content around it, often used for sidebars or pull quotes.
+
+<footer>: Represents a footer for its nearest sectioning content or sectioning root element. It typically contains author information, copyright information, or links to related documents.
+
+<main>: Specifies the main content of the document, excluding content repeated across documents such as sidebars, navigation links, or footers.
+
+<figure>: Used to encapsulate media content like images, illustrations, diagrams, or code snippets, often with a caption using the <figcaption> element.
+
+<figcaption>: Provides a caption or explanation for the content in the <figure> element.
+
+<time>: Represents a specific period in time, such as a date, time, or both. It can be useful for event scheduling or timestamps in blogs.
+
+
+2-Span
+
+The <span> tag in HTML is a non-semantic, inline container used to group and style pieces of text or other inline elements. Unlike semantic tags such as <header> or <article>, the <span> tag does not convey any specific meaning or structure to the content it wraps. Instead, it’s often used in combination with CSS or JavaScript to apply styles or manipulate the DOM.
+
+3-Div
+
+The <div> tag in HTML is a block-level container used to group elements together, often for styling or scripting purposes. Unlike some HTML tags that convey specific meaning or structure, <div> is a non-semantic element, meaning it doesn't inherently represent anything about the content it contains. It's primarily used to divide sections of a webpage and apply styles or scripts to those sections.
+
+4-Opt group
+The <optgroup> tag in HTML is used to group related options within a <select> dropdown list. This is especially useful when you have a long list of options and want to categorize them into different groups for better organization and readability.
+ex:
+a-
+<select name="cars">
+    <optgroup label="German Cars">
+        <option value="mercedes">Mercedes</option>
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+    </optgroup>
+    <optgroup label="Japanese Cars">
+        <option value="toyota">Toyota</option>
+        <option value="honda">Honda</option>
+        <option value="nissan">Nissan</option>
+    </optgroup>
+</select>
+In this example, the <optgroup> tags group the options into "German Cars" and "Japanese Cars," making the dropdown more organized.
