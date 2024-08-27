@@ -1,0 +1,34 @@
+CSS units vh (viewport height) and vw (viewport width) are relative units that are based on the dimensions of the viewport, which is the visible area of the webpage in the browser.
+
+vh (Viewport Height)
+Definition: vh stands for "viewport height." One vh is equal to 1% of the height of the viewport.
+
+
+vh is often used to create elements that are sized or positioned relative to the height of the viewport
+
+
+vw (Viewport Width)
+Definition: vw stands for "viewport width." One vw is equal to 1% of the width of the viewport.
+
+vw is often used for responsive designs where elements need to scale based on the width of the browser window
+
+
+Absolute vs relative units
+
+
+Absolute Units
+Absolute units are fixed and are not influenced by other elements or the size of the viewport. These units are consistent regardless of the context in which they are used.
+
+Common Absolute Units:
+1-px (pixels)
+2-in (inches)
+3-cm (centimeters) and mm (millimeters)
+
+Relative Units
+Relative units are flexible and adapt to the context in which they are used. They are based on the size of other elements or the viewport, making them ideal for responsive design
+
+Common Relative Units:
+1-% (percentage)
+2-em and rem
+3-vh (viewport height) and vw (viewport width)
+4-vmin and vmax
