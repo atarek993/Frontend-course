@@ -27,8 +27,10 @@ p {
 .cards {
     position: relative;
     top: 50px;
+    left: 550px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
     justify-content: center;
     gap: 20px;
 }
@@ -62,4 +64,16 @@ p {
 
 .card-text p{
     color: white;
+}
+
+.Button button{
+    position: relative;
+    left: 90px;
+    background-color: rgb(37, 3, 3);
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
 }
