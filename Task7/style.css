@@ -127,7 +127,6 @@ nav ul{
 .Testimonial {
     padding: 50px;
     text-align: center;
-    background-color: #f9f9f9;
 }
 
 
@@ -167,3 +166,52 @@ nav ul{
 .user-comment p{
     font-size: small;
 }
+
+.faproducts{
+    display: flex;
+    justify-content: center;
+
+}
+
+.faproducts-btn button{
+    border-radius: 20px;
+    background-color: transparent;
+    width: 200px;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+
+.latest-news{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.latest-news-text{
+    margin-bottom: 30px;
+}
+
+.latest-news-text p{
+    font-size: 2em;
+    font-weight: bold;
+}
+.latest-news-email{
+    position: relative;
+    left: 24%;
+
+}
+
+.latest-news-email input{
+    text-align: center;
+    width: 50%;
+    height: 2em;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
