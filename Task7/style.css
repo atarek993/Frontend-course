@@ -24,6 +24,12 @@ body{
     width: 50%; 
 }
 
+.nav-bar-icons i {
+    display: inline;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -210,7 +216,14 @@ nav ul{
     background-color: white;
     color: black;
 }
-
+.latest-news-email i {
+    position: relative;
+    right: 50px;
+    bottom: -10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+}
 .footer{
     display: flex;
     flex-wrap: wrap;
