@@ -17,6 +17,14 @@
 
 //2-
 
+// var text = prompt("Please enter some text");
+
+// if (text.length > 100) {
+//     console.log("The string is long");
+// } else {
+//     console.log("The string is short");
+// }
+
 
 
 
@@ -77,10 +85,54 @@
 // {
 //     console.log ("Your grade is C")
 // }
-// else if(academic_grade >= 80){
+// else if(academic_grade >= 80 && academic_grade < 85){
 //     console.log ("Your grade is B")
 
 // }
-// else {
+// else if(academic_grade >= 85) {
+//     console.log ("Your grade is A")
+
 
 // }
+
+//7-
+
+// var temperature =prompt("Please enter the temperature")
+// if (temperature >= 30)
+// {
+//     console.log("The temperature is Hot")
+// }
+// else
+// {
+//     console.log("The temperature is Cold")
+ 
+// }
+
+//8-
+
+// var num2 =prompt("please enter a number")
+// if (num2 % 2 ==0)
+// {
+//     console.log("it's Even number")
+
+// }
+// else{
+//     console.log("it's Odd number")
+
+
+// }
+
+
+//9-
+// var num3 = prompt("Please enter a number");
+
+// if (num3 > 20) {
+//     if (num3 % 2 === 0) {
+//         console.log("You can enter the university, the number is even");
+//     } else {
+//         console.log("You can enter the university, the number is odd");
+//     }
+// } else {
+//     console.log("You can't enter");
+// }
+
