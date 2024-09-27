@@ -126,13 +126,12 @@
 //9-
 // var num3 = prompt("Please enter a number");
 
-// if (num3 > 20) {
-//     if (num3 % 2 === 0) {
-//         console.log("You can enter the university, the number is even");
-//     } else {
-//         console.log("You can enter the university, the number is odd");
-//     }
-// } else {
+// if (num3 > 20)
+// {
+//         console.log("You can enter the university");
+// } 
+// else 
+// {
 //     console.log("You can't enter");
 // }
 
