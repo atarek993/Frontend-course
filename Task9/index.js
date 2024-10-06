@@ -142,33 +142,101 @@
 // console.log(numdivsor(12))
 
 ////8-
-function primenumdiv(num)
-{
-    console.log(`All prime number between 1 and ${num} are`)
-    for(i=2; i<=num; i++)
-    {
-        let isprime = true
-        for (j=2 ; j<=Math.sqrt(i) ; j++ )
-        {
-            if(i%j==0)
-            {
-                isprime= false
-                break
-            }
+// function primenumdiv(num)
+// {
+//     console.log(`All prime number between 1 and ${num} are`)
+//     for(i=2; i<=num; i++)
+//     {
+//         let isprime = true
+//         for (j=2 ; j<=Math.sqrt(i) ; j++ )
+//         {
+//             if(i%j==0)
+//             {
+//                 isprime= false
+//                 break
+//             }
 
                 
-        }
-        if (isprime) {
-            console.log(i);
-        }
+//         }
+//         if (isprime) {
+//             console.log(i);
+//         }
        
-    }
+//     }
 
-}
+// }
 
-console.log(primenumdiv(5))
+// console.log(primenumdiv(5))
 
+
+///9-
+// function counter(n) {
+//     let sum = 0;
+//     let countOdd = 0
+//     let countEven = 0
+
+    
+//     for (let i = 0; i < n; i++) {
+//         var num =parseInt(prompt(`Please enter number ${i + 1}:`)) 
+//         sum = sum + num 
         
+//         if (num % 2 == 0)
+//          {
+//             countEven++
+//         } 
+//         else
+//         {
+//             countOdd++
+//         }
+//     }
+
+   
+
+    
+//     console.log(`Sum of all numbers: ${sum}`)
+//     console.log(`Count of odd numbers: ${countOdd}`)
+//     console.log(`Count of even numbers: ${countEven}`)
+// }
+
+
+// counter(5); 
+
+////10-
+
+
+
+
+
+
+
+
+
+
+
+
+
+////11-
+
+// function posorneg(num1,num2)
+// {
+//     if (num1*num2<0)
+//     {
+//         console.log("negative")
+//         console.log(num1*num2)
+//     }
+//     else
+//     {
+//         console.log("Positive")
+//         console.log(num1*num2)
+
+//     }
+// }
+
+
+// posorneg(-3,2)
+// posorneg(-3,-6)
+// posorneg(3,2)
+
 
 
 
