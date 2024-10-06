@@ -203,6 +203,23 @@
 
 ////10-
 
+// function PUM(n) 
+// {
+//     let currentNumber = 1; 
+    
+//     for (let i = 0; i < n; i++) {
+        
+//         console.log(`${currentNumber} ${currentNumber + 1} ${currentNumber + 2} PUM`);
+        
+        
+//         currentNumber = currentNumber + 4; 
+//     }
+// }
+
+
+// PUM(3);
+
+
 
 
 
