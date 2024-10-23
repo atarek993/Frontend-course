@@ -66,7 +66,8 @@
 
 
 /////7-
-// function removeExtraSpaces(str) {
+// function removeExtraSpaces(str) 
+// {
 //     return str.trim();
 // }
 
