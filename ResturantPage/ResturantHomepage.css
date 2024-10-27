@@ -40,9 +40,10 @@ a {
 
 .nav-bar-contents{
     width: 100%; 
-    height: 100%;
-    background: url('./assets/images/Backgroundimg.jpeg') no-repeat center center; 
-    background-size: cover; 
+    height: 100vh;
+    background-image: url('./assets/images/Backgroundimg.jpeg') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative; 
     overflow: hidden;
 
@@ -69,7 +70,7 @@ a {
 
 .nav-bar-contents nav {
     position: relative;
-    top: 50px;
+    top: 40px;
     left: 150px;
     height: 10vh;
     background: rgba(0, 0, 0, 0.5); 
@@ -113,15 +114,26 @@ nav ul li a {
     
 }
 
+.nav-bar-contents-hide{
+    display: none;
+}
+
 .restaurantslogan
 {
-    width: 100%;
-    height: 100%;
+    max-height: 60vh; 
+    padding: 40px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 20em;
+    
 }
 
 .restaurantslogan h3{
@@ -151,6 +163,20 @@ nav ul li a {
     font-family: Poppins-regular;
     cursor: pointer;
 
+}
+
+
+.navbarbtn i{
+    color:#FFFFFF80;
+    font-size: 30px;
+    border-radius: 50%;
+
+}
+
+.activetab{
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
 }
 
 
@@ -339,7 +365,7 @@ nav ul li a {
     justify-content:center ;
     align-items: center;
     margin: 0 auto;
-    margin-top: 220px;
+    margin-top: 350px;
     background-image: url(./assets/images/salad.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
