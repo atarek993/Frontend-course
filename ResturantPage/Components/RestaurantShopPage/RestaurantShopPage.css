@@ -270,7 +270,7 @@ nav ul li a {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 120px;
-    width: 100%; 
+    width: 90%; 
 }
 
 .food-card {
@@ -408,4 +408,38 @@ nav ul li a {
 .addtocartbutton button:hover {
     background-color: #e60000; 
     transform: scale(1.05); 
+}
+
+
+
+@media (min-width:768px) {
+   
+
+}
+
+@media (min-width:1024px) {
+   
+}
+
+@media (min-width:1250px) {
+    
+
+   
+
+}
+
+@media (min-width:1440px) {
+    
+}
+
+@media (min-width:1650px) {
+    
+
+
+
+}
+
+@media (min-width:1950px) {
+   
+
 }
