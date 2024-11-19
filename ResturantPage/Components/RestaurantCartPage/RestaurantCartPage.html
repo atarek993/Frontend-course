@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
     <script src="https://kit.fontawesome.com/5e49fca639.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./RestaurantContactpage.css">
+    <link rel="stylesheet" href="./RestaurantCartPage.css">
+    <title>Cart</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
                 <img src="../../assets/images/logo.png" alt="Restaurant Logo">
             </div>
             <ul id="nav-links">
-                <li><a href="ResturantHomepage.html">Home</a></li>
+                <li><a href="../../ResturantHomepage.html">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="./Components/RestaurantShopPage/RestaurantShopPage.html">Shop</a></li>
                 <li><a href="./Components/RestaurantContactpage/RestaurantContactpage.html">Contact</a></li>
@@ -27,7 +27,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="../RestaurantCartPage/RestaurantCartPage.html" aria-label="Cart">
+                    <a href="./Components/RestaurantCartPage/RestaurantCartPage.html" aria-label="Cart">
                         <i class="fas fa-cart-shopping" aria-hidden="true"></i>
                     </a>
                 </li>
@@ -37,30 +37,21 @@
             </div>
 
         </nav>
+    </section>
+    <header>
+        <h1>Your Cart</h1>
+    </header>
 
-        <div class="home-contact">
-            <h3>Home-<span>Contact</span></h3>
-        </div>
-
-
+    <section id="cart-container">
+        <p id="empty-cart-message">Your cart is currently empty.</p>
     </section>
 
-    <section class="send-us-message">
-        <h3>Send Us a Message</h3>
-        <form>
-            <div class="row">
-                <input type="text" id="name" name="name" placeholder="Name" required>
-                <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
-                <input type="text" id="subject" name="subject" placeholder="Subject" required>
-            </div>
-            <div class="row">
-                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
-            </div>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-    
+    <div class="checkoutbtn">
+        <button>Checkout</button>
+    </div>
 
+
+    <script src="./RestaurantCartPage.js"></script>
 </body>
 
 </html>

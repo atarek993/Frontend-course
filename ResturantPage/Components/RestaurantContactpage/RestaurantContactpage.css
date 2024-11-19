@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-size: 10px;
+    background: #1D1D1D;
+    background-size: cover; 
+    position: relative; 
+    overflow-x: hidden; 
+}
+
+
+@font-face {
+    font-family: Poppins-light;
+    src: url(../../assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-regular;
+    src: url(../../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-medium;
+    src: url(../../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: fibre-vinatge;
+    src: url(../../assets/fonts/fibre-vintage.otf);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar-contents{
+    width: 100%; 
+    height: 100vh;
+    background-image: url('../../assets/images/Backgroundimg.jpeg') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    overflow: hidden;
+
+}
+
+.nav-bar-contents::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6); 
+    z-index: 1; 
+}
+
+.nav-bar-contents nav,
+.home-contact {
+    position: relative;
+    z-index: 2; 
+}
+
+
+
+.nav-bar-contents nav {
+    position: relative;
+    top: 40px;
+    left: 150px;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.5); 
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.652);
+    border-radius: 20px;
+    z-index: 2;
+    display: flex;             
+    align-items: center;      
+    justify-content: space-evenly; 
+    padding: 0 20px; 
+    cursor: pointer;
+ 
+         
+}
+
+.resturantlogo img {
+    width: 70px;
+    height: 70px;
+}
+
+
+nav ul {
+    display: flex;             
+    list-style: none;          
+    justify-content: space-evenly; 
+    flex-grow: 1;             
+    margin-left: 20px; 
+
+
+}
+
+nav ul li {
+    margin: 0 15px;           
+}
+
+nav ul li a {
+    font-size: 1.1em;
+    color: #FFFFFF80;
+    font-size: 20px;
+    
+}
+
+.home-contact
+{
+    max-height: 60vh; 
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 20em;
+    
+}
+
+.home-contact h3{
+    font-size: 32px;
+    font-family: Poppins-regular ;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.home-contact h3 span{
+    color: #FFFFFF80;
+}
+
+.send-us-message {
+    width: 100%;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px ;
+}
+
+.send-us-message h3 {
+    font-size: 1.8em;
+    color: #ffffff;
+    font-family: Poppins-regular;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 15px; 
+}
+
+.row input, .row textarea {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 3em;
+    background-color:transparent;
+    color: white;
+    font-family: Poppins-regular;
+}
+
+
+
+
+button {
+    background-color: #ff0000;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-family: 'Poppins-medium', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+

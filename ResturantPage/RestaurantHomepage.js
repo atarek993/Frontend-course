@@ -14,3 +14,26 @@ navLinks2.forEach(link=>{
     })
 })
     
+
+document.addEventListener('DOMContentLoaded', () => {
+    const addToCartButtons = document.querySelectorAll('.addtocartbutton button');
+
+    addToCartButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const foodCard = button.closest('.food-card');
+            const foodData = {
+                image: foodCard.querySelector('img').src,
+                name: foodCard.querySelector('.Sandwich-name h4').innerText,
+                price: foodCard.querySelector('.sandwich-price h4').innerText,
+            };
+
+            // Save food data to localStorage
+            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+            cartItems.push(foodData);
+            localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+            alert('Item added to cart!');
+        });
+    });
+});
+

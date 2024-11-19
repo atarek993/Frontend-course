@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1D1D1D;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar-contents{
+    width: 100%; 
+    height: 100vh;
+    background-image: url('../../assets/images/Backgroundimg.jpeg') ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+    overflow: hidden;
+
+}
+
+.nav-bar-contents::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.6); 
+    z-index: 1; 
+}
+
+.nav-bar-contents nav,
+.restaurantslogan {
+    position: relative;
+    z-index: 2; 
+}
+
+
+
+.nav-bar-contents nav {
+    position: relative;
+    top: 40px;
+    left: 150px;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.5); 
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.652);
+    border-radius: 20px;
+    z-index: 2;
+    display: flex;             
+    align-items: center;      
+    justify-content: space-evenly; 
+    padding: 0 20px; 
+    cursor: pointer;
+ 
+         
+}
+
+.resturantlogo img {
+    width: 70px;
+    height: 70px;
+}
+
+
+nav ul {
+    display: flex;             
+    list-style: none;          
+    justify-content: space-evenly; 
+    flex-grow: 1;             
+    margin-left: 20px; 
+
+
+}
+
+nav ul li {
+    margin: 0 15px;           
+}
+
+nav ul li a {
+    font-size: 1.1em;
+    color: #FFFFFF80;
+    font-size: 20px;
+    
+}
+
+#cart-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.cart-item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cart-item-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.checkoutbtn {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.checkoutbtn button {
+    border: 1px solid rgb(238, 236, 236);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    color: red;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.checkoutbtn button:hover{
+    background-color: white;
+}
+
